@@ -1,4 +1,16 @@
 31 de agosto:
-    lala
+    Práctico de VHDL `[PDF] </doc/20120831-practico-ghdl.pdf>`_
 
+Instalación de GHDL en Ubuntu 12.04
+===================================
+
+En Ubuntu 12.04 no viene el paquete de ghdl, con lo cual hay que habilitar
+para instalarlo de un repositorio de terceros. Se puede hacer de la
+siguiente forma:
+
+.. code-block:: bash
+
+    $ sudo add-apt-repository ppa:pgavin/ghdl
+    $ sudo apt-get update
+    $ sudo apt-get install ghdl
 
