@@ -1,0 +1,43 @@
+## -*- coding: utf-8 -*-
+<%inherit file="base.tmpl"/>
+<%block name="bigtitle">
+    <div class="hero-unit">
+        <h2>Arquitectura de Computadoras - 2012</h2>
+        <h3>FaMAF - UNC</h3>
+    </div>
+</%block>
+<%block name="content">
+    <h2>Novedades</h2>
+    % for post in posts:
+        <div class="postbox">
+        <h1><a href="${post.permalink(lang)}">${post.title(lang)}</a>
+        <small>&nbsp;&nbsp;
+             ${messages[lang]["Posted:"]} ${post.date}
+        </small></h1>
+        <hr>
+        ${post.text(lang, index_teasers)}
+        <p>
+        %if disqus_forum:
+            <a href="${post.permalink()}#disqus_thread">Comments</a>
+        %endif
+        </div>
+    % endfor
+    <div>
+<ul class="pager">
+  %if prevlink:
+    <li class="previous">
+        <a href="${prevlink}">${messages[lang]["&larr; Newer posts"]}</a>
+    </li>
+  %endif
+  %if nextlink:
+    <li class="next">
+        <a href="${nextlink}">${messages[lang]["Older posts &rarr;"]}</a>
+    </li>
+  %endif
+</ul>
+
+    </div>
+    %if disqus_forum:
+       <script type="text/javascript">var disqus_shortname="${disqus_forum}";(function(){var a=document.createElement("script");a.async=true;a.type="text/javascript";a.src="http://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("HEAD")[0]||document.getElementsByTagName("BODY")[0]).appendChild(a)}());</script>
+    %endif
+</%block>
