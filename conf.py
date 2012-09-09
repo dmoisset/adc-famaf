@@ -9,7 +9,7 @@ import os
 # Data about this site
 BLOG_AUTHOR = u"Cátedra de ADC - FaMAF 2012"
 BLOG_TITLE = "Arquitectura de Computadoras"
-BLOG_URL = "http://cs.famaf.unc.edu.ar/~dmoisset/adc"
+BLOG_URL = "http://cs.famaf.unc.edu.ar/"
 BLOG_EMAIL = "md@famaf.unc.edu.ar"
 BLOG_DESCRIPTION = u"Página del dictado de la materia «Arquitectura de Computadoras» 2012"
 
