@@ -1,3 +1,8 @@
 31 de agosto:
-    GHDL, a VHDL compiler `[PDF] </doc/20120831-teorico-ghdl.pdf>`_
+    GHDL, a VHDL compiler `[PDF] </doc/20120831-teorico-ghdl.pdf>`__
+
+5 de septiembre:
+    Pipeline: conceptos básicos `[PDF] </doc/20120905-teorico-pipeline.pdf>`__ `[PPT] </doc/20120905-teorico-pipeline.ppt>`__
+
+    Data path control pipeline `[PDF] </doc/20120905-teorico-datapath-pipeline.pdf>`__ `[PPT] </doc/20120905-teorico-datapath-pipeline.ppt>`__
 
