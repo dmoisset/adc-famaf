@@ -1,4 +1,4 @@
-Están disponibles los teoricos de pipelining de la clase del 5 de septiembre
+Están disponibles los teóricos de pipelining de la clase del 5 de septiembre
 
 * Pipeline: conceptos básicos `[PDF] </doc/20120905-teorico-pipeline.pdf>`__ `[PPT] </doc/20120905-teorico-pipeline.ppt>`__
 * Data path control pipeline `[PDF] </doc/20120905-teorico-datapath-pipeline.pdf>`__ `[PPT] </doc/20120905-teorico-datapath-pipeline.ppt>`__

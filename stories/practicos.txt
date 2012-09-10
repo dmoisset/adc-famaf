@@ -1,5 +1,11 @@
+24 de agosto:
+    Práctico de MIPS `[PDF] </doc/20120824-practico-mips.pdf>`__
+
 31 de agosto:
-    Práctico de VHDL `[PDF] </doc/20120831-practico-ghdl.pdf>`_
+    Práctico de VHDL `[PDF] </doc/20120831-practico-ghdl.pdf>`__
+
+7 de septiembre:
+    Práctico de Pipeline `[PDF] </doc/20120905-practico-pipeline.pdf>`__
 
 Instalación de GHDL en Ubuntu 12.04
 ===================================
