@@ -1,5 +1,5 @@
 Está disponibles el prácticos de jerarquía de memoria que se presenta hoy
 (14 de septiembre). Pueden bajar el 
-`[PDF] </doc/201208914-practico-jerarquia-memoria.pdf>`__ o encontrarlo
+`[PDF] </doc/20120914-practico-jerarquia-memoria.pdf>`__ o encontrarlo
 en la página de prácticos.
 
