@@ -13,3 +13,11 @@ Los parciales serán en las siguientes fechas, todos miércoles:
 
 Además se tomará un recuperatorio el día miércoles 21 de noviembre.
 
+Entregas de laboratorios
+========================
+
+Los laboratorios se deberán entregar en las siguientes fechas, todos viernes:
+
+* `Laboratorio 1 </stories/laboratorio-1.html>`__: 28 de septiembre de 2012
+* Otros laboratorios: a determinar
+

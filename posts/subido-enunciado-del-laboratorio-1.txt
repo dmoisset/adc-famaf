@@ -1,0 +1,8 @@
+Hemos subido a la página el 
+`Enunciado del Laboratorio 1 </stories/laboratorio-1.html>`__. Este laboratorio
+es parte de la primera evaluación y debe ser entregado la clase siguiente al
+parcial, el viernes 28 de septiembre.
+
+El laboratorio puede hacerse por grupos de hasta dos alumnos, excepcionalmente
+tres, si alguien queda sin compañero/a y no quiere realizarlo solo.
+

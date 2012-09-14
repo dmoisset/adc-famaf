@@ -1,0 +1,26 @@
+Laboratorio 1
+=============
+
+Fecha de entrega:
+    28 de septiembre de 2012
+Tema:
+    Utilización de una Máquina de Estados para controlar una Cache
+Modalidad:
+    Grupos de hasta dos alumnos, excepcionalmente tres, si alguien queda sin compañero/a y no quiere realizarlo solo.
+
+Enunciado
+---------
+
+a) Desarrollar una máquina de estados en código Vhdl para controlar una memoria caché.
+
+b) Simular la máquina y comentar resultados.
+
+c) Realizar un informe conteniendo el código VHDL comentado y una breve descripción técnica de lo desarrollado y enviarlo por email a una dirección que se les comunicará en breve. (No hace falta imprimir, ahorremos papel), hasta el viernes 28 de setiembre de 2012.
+
+d) Presentar la máquina funcionando y simulada el viernes 28 de setiembre en el horario del práctico.
+
+Bibliografía
+------------
+
+Sección 5.7 del libro de Paterson, (página 529)
+

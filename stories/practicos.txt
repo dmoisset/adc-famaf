@@ -7,6 +7,12 @@
 7 de septiembre:
     Práctico de Pipeline `[PDF] </doc/20120905-practico-pipeline.pdf>`__
 
+Laboratorios
+============
+
+Laboratorio 1:
+    Utilización de una Máquina de Estados para controlar una Cache `[Enunciado] </stories/laboratorio-1.html>`__
+
 Instalación de GHDL en Ubuntu 12.04
 ===================================
 
