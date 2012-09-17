@@ -6,3 +6,8 @@
 
     Data path control pipeline `[PDF] </doc/20120905-teorico-datapath-pipeline.pdf>`__ `[PPT] </doc/20120905-teorico-datapath-pipeline.ppt>`__
 
+12 de septiembre:
+    Data hazards `[PDF] </doc/20120912-teorico-data-hazards.pdf>`__ `[PPT] </doc/20120912-teorico-data-hazards.ppt>`__
+    
+    Control hazards `[PDF] </doc/20120912-teorico-control-hazards.pdf>`__ `[PPT] </doc/20120912-teorico-control-hazards.ppt>`__
+    
