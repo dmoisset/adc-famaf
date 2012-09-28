@@ -1,0 +1,128 @@
+## -*- coding: utf-8 -*-
+<!DOCTYPE html>
+<html lang="${lang}">
+<head>
+    <meta charset="utf-8">
+    <meta name="title" content="${title} | ${blog_title}" >
+    <meta name="description" content="${description}" >
+    <meta name="author" content="${blog_author}">
+    <title>${title} | ${blog_title}</title>
+    <!-- Le styles -->
+    %if use_bundles:
+        <link href="/assets/css/all.css" rel="stylesheet" type="text/css">
+        <script src="/assets/js/all.js" type="text/javascript"></script>
+    %else:
+        <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+        <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="/assets/css/colorbox.css" rel="stylesheet" type="text/css"/>
+        <link href="/assets/css/theme.css" rel="stylesheet" type="text/css"/>
+        %if exists("files/assets/css/custom.css", not_empty=True):
+        <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">
+        %endif
+        <script src="/assets/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.colorbox-min.js" type="text/javascript"></script>
+    %endif
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    %if rss_link:
+        ${rss_link}
+    %else:
+        %for language in translations:
+            <link rel="alternate" type="application/rss+xml" title="RSS (${language})" href="${_link("rss", None, lang)}">
+        %endfor
+    %endif
+    <%block name="extra_head">
+    </%block>
+</head>
+<body>
+<!-- Menubar -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="${abs_link('/')}">
+            ${blog_title}
+            </a>
+            <ul class="nav">
+                %for url, text in sidebar_links[lang]:
+                    % if rel_link(permalink, url) == "#":
+                        <li class="active"><a href="${url}">${text}</a>
+                    %else:
+                        <li><a href="${url}">${text}</a>
+                    %endif
+                %endfor
+            </ul>
+            %if search_form:
+                ${search_form}
+            %endif
+            <ul class="nav pull-right">
+            <%block name="belowtitle">
+            %if len(translations) > 1:
+                    <li>
+                    %for langname in translations.keys():
+                        %if langname != lang:
+                            <a href="${_link("index", None, langname)}">${messages[langname]["LANGUAGE"]}</a>
+                        %endif
+                    %endfor
+                    </li>
+            %endif
+            </%block>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End of Menubar -->
+
+<div class="container" id="container">
+    <%block name="bigtitle"></%block>
+    <div class="row">
+        <div class="span9">
+            <!--Body content-->
+            <%block name="content"></%block>
+            <!--End of body content-->
+        </div>
+        <div class="span3">
+            <h2>Docentes</h2>
+            <ul class="nav nav-tabs nav-stacked">
+                <li><a href="#"><i class="icon-envelope"></i>Pablo Ferreyra</a></li>
+                <li><a href="#"><i class="icon-envelope"></i>Juan Fraire</a></li>
+                <li><a href="#"><i class="icon-envelope"></i>Xavier Gaspar</a></li>
+                <li><a href="#"><i class="icon-envelope"></i>Daniel Moisset</a></li>
+                <li><a href="#"><i class="icon-envelope"></i>Eduardo Sánchez</a></li>
+                <li><a href="#"><i class="icon-envelope"></i>Andrés Bordese</a></li>
+            </ul>
+            <h2>Horarios</h2>
+            <dl>
+                <dt>Miércoles</dt>
+                <dd>9 a 13 hs.</dd>
+                <dd>Aula 12</dd>
+                <dt>Viernes</dt>
+                <dd>14 a 18hs.</dd>
+                <dd>Aula 28</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="footerbox">
+        ${content_footer}
+    </div>
+</div>
+    %if add_this_buttons:
+    <!-- addthis -->
+    <div id="addthisbox" class="addthis_bar addthis_bar_vertical addthis_bar_small">
+        <div class="addthis_toolbox addthis_default_style">
+            <span><a class="addthis_button_preferred_1"></a></span>
+            <span><a class="addthis_button_preferred_2"></a></span>
+            <span><a class="addthis_button_preferred_3"></a></span>
+            <span><a class="addthis_button_preferred_4"></a></span>
+            <span><a class="addthis_button_compact"></a></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+    <!-- End of addthis -->
+    %endif
+${analytics}
+    <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script>
+</body>

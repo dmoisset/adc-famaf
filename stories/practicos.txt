@@ -1,0 +1,31 @@
+24 de agosto:
+    Práctico de MIPS `[PDF] </doc/20120824-practico-mips.pdf>`__
+
+31 de agosto:
+    Práctico de VHDL `[PDF] </doc/20120831-practico-ghdl.pdf>`__
+
+7 de septiembre:
+    Práctico de Pipeline `[PDF] </doc/20120905-practico-pipeline.pdf>`__
+
+14 de septiembre:
+    Práctico de Jerarquía de Memoria `[PDF] </doc/20120914-practico-jerarquia-memoria.pdf>`__
+
+Laboratorios
+============
+
+Laboratorio 1:
+    Utilización de una Máquina de Estados para controlar una Cache `[Enunciado] </stories/laboratorio-1.html>`__
+
+Instalación de GHDL en Ubuntu 12.04
+===================================
+
+En Ubuntu 12.04 no viene el paquete de ghdl, con lo cual hay que habilitar
+para instalarlo de un repositorio de terceros. Se puede hacer de la
+siguiente forma:
+
+.. code-block:: bash
+
+    $ sudo add-apt-repository ppa:pgavin/ghdl
+    $ sudo apt-get update
+    $ sudo apt-get install ghdl
+

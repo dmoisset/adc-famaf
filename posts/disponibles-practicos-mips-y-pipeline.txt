@@ -1,0 +1,6 @@
+Están disponibles los prácticos que faltaban subir: el repaso de MIPS del
+24 de agosto, y el práctico de pipelining del 7 de septiembre.
+
+* Práctico 1: MIPS `[PDF] </doc/20120824-practico-mips.pdf>`__
+* Práctico 3: Pipeline `[PDF] </doc/20120905-practico-pipeline.pdf>`__
+

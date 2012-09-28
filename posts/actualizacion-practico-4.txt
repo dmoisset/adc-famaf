@@ -1,0 +1,5 @@
+Hemos subido una actualización (con algunas correcciones) al enunciado
+del práctico de jerarquía de memoria. Pueden bajar el 
+`[PDF] </doc/20120914-practico-jerarquia-memoria.pdf>`__ o encontrarlo
+en la página de prácticos.
+
