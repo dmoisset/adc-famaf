@@ -1,0 +1,2 @@
+Teórico OpenCL: `[PDF] </doc/20121128-opencl.pdf>`__ 
+
