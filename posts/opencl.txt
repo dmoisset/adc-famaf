@@ -1,2 +1,3 @@
 Teórico OpenCL: `[PDF] </doc/20121128-opencl.pdf>`__ 
+Filminas OpenCL: `[PDF] </doc/20121010-opencl-teorico-1>`__ 
 
