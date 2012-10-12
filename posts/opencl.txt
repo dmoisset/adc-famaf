@@ -5,7 +5,7 @@ El Práctico de laboratorio son los 4 ejercicios de las filminas. Se entregan po
 
 Ejercicio revisado en clase: `[ZIP] </doc/20121010-opencl-suma-arreglos.zip>`__ OpenCL.cpp es el código principal, CLaux.h tiene algunas funciones auxiliares, y kernel.cl es el código del kernel. Está todo bastante comentado para que puedan seguirlo paso a paso de acuerdo a lo que se dio en la clase.
 
-Nota: Instalar librerías OpenCL de los liks de la presentación de acuerdo al hardware con el que cuenten. En el código ya se incluye la cabecera CL/cl.h proporcionada por los drivers instalados. Para compilar es necesario linkear la librería OpenCL (en gcc es con el argumento -lOpenCL). El comando de compilación es:
+Nota: Instalar librerías OpenCL de los links de la presentación de acuerdo al hardware con el que cuenten. En el código ya se incluye la cabecera CL/cl.h proporcionada por los drivers instalados. Para compilar es necesario linkear la librería OpenCL (en gcc es con el argumento -lOpenCL). El comando de compilación es:
 
 .. code-block:: bash
 
