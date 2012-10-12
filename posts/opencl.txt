@@ -1,6 +1,7 @@
 Teórico OpenCL para complementar: `[PDF] </doc/20121128-opencl.pdf>`__ 
 
 Filminas OpenCL dadas en clase: `[PDF] </doc/20121010-opencl-teorico-1.pdf>`__ 
+El Práctico de laboratorio son los 4 ejercicios de las filminas. Se entregan por mail a juanfraire@gmail.com. No olviden poner sus nombres.
 
 Ejercicio revisado en clase: `[ZIP] </doc/20121010-opencl-suma-arreglos.zip>`__ OpenCL.cpp es el código principal, CLaux.h tiene algunas funciones auxiliares, y kernel.cl es el código del kernel. Está todo bastante comentado para que puedan seguirlo paso a paso de acuerdo a lo que se dio en la clase.
 
@@ -10,8 +11,9 @@ Nota: Instalar librerías OpenCL de los liks de la presentación de acuerdo al h
 
   $ gcc -o OpenCL OpenCL01.cpp -lOpenCL
 
-Si el ejecutable no encuentra la librería ejecutarlo con el siguiente comando:
+Si el ejecutable no encuentra la librería (pasa en algunas computadoras del Lab) ejecutarlo con el siguiente comando:
 
 .. code-block:: bash
 
   $ LD_LIBRARY_PATH=/usr/lib64 ./OpenCL
+
