@@ -1,7 +1,7 @@
 Teórico OpenCL para complementar: `[PDF] </doc/20121128-opencl.pdf>`__ 
 
 Filminas OpenCL dadas en clase: `[PDF] </doc/20121010-opencl-teorico-1.pdf>`__ 
-El Práctico de laboratorio son los 4 ejercicios de las filminas. Se entregan por mail a juanfraire@gmail.com. No olviden poner sus nombres.
+El Práctico de laboratorio son los 4 ejercicios de las filminas. Ejercicio 1 y 2 obligatorio para entrega después del parcial. Ejercicio 3 y 4 como puntos extra. Se entregan por mail a juanfraire@gmail.com. No olviden poner sus nombres.
 
 Ejercicio revisado en clase: `[ZIP] </doc/20121010-opencl-suma-arreglos.zip>`__ OpenCL.cpp es el código principal, CLaux.h tiene algunas funciones auxiliares, y kernel.cl es el código del kernel. Está todo bastante comentado para que puedan seguirlo paso a paso de acuerdo a lo que se dio en la clase.
 
