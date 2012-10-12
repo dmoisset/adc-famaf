@@ -9,7 +9,7 @@ Nota: Instalar librerías OpenCL de los links de la presentación de acuerdo al 
 
 .. code-block:: bash
 
-  $ gcc -o OpenCL OpenCL01.cpp -lOpenCL
+  $ g++ -o OpenCL OpenCL01.cpp -lOpenCL
 
 Si el ejecutable no encuentra la librería (pasa en algunas computadoras del Lab) ejecutarlo con el siguiente comando:
 
