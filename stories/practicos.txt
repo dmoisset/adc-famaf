@@ -10,6 +10,9 @@
 14 de septiembre:
     Práctico de Jerarquía de Memoria `[PDF] </doc/20120914-practico-jerarquia-memoria.pdf>`__
 
+19 de octubre:
+    Práctico de OpenCL `[PDF] </doc/20121010-opencl-teorico-1.pdf>`__ Ejercicio 1 y 2 obligatorio para entrega después del parcial. Ejercicio 3 y 4 como puntos extra.
+
 Laboratorios
 ============
 
