@@ -1,6 +1,6 @@
 Ya está para bajar el material relacionado a MPI, teórico y práctico:
 
-* Teórico: MPI `[PDF] </doc/20121031-teorico-mpi.html>`__
+* Teórico: MPI `[HTML] </doc/20121031-teorico-mpi.html>`__
 * Práctico: MPI `[PDF] </doc/20121031-practico-mpi.pdf>`__
 
 La bibliografía en que se basa este es el libro de Peter Pacheco, “Introduction
