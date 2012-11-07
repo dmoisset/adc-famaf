@@ -1,0 +1,8 @@
+Como parte del tercer parcial se deberá entregar un proyecto de MPI. El proyecto
+consiste en implementar el ejercicio 9 del `practico </doc/20121031-practico-mpi.pdf>`__
+y entregarlo por correo electrónico acompañado de un pequeño informe (1 carilla)
+describiendo el trabajo realizado.
+
+El trabajo debe envíarse a <mailto:md@except.com.ar> antes del día 16 de
+noviembre.
+
