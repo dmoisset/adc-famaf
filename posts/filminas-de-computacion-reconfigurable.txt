@@ -1,0 +1,10 @@
+Estos son los slides de computación reconfigurable:
+
+* “Un Microprocesador Flexible en VHDL” `[PDF] </doc/20121107-computacion-reconfigurable-0.pdf>`__
+* “Performance de Computadoras SIMD Implementadas en FPGAs” `[PDF] </doc/20121107-computacion-reconfigurable-1.pdf>`__
+* “HPC, COREGEN, EDK, ETC.” `[PDF] </doc/20121107-computacion-reconfigurable-2.pdf>`__
+* “Using FPGA Devices to Accelerate Biomolecular Simulations” `[PDF] </doc/20121107-computacion-reconfigurable-3.pdf>`__
+* “Computación híbrida y colaborativa en acción” `[PDF] </doc/20121107-computacion-reconfigurable-4.pdf>`__
+* “Sistemas en Chip acelerados por hardware” `[PDF] </doc/20121107-computacion-reconfigurable-5.pdf>`__
+
+
