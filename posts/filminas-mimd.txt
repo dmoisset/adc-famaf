@@ -1,0 +1,7 @@
+Con algo de demora, subimos el material sobre MIMD, teórico y práctico:
+
+* Teórico: parte 1 `[PPT] </doc/20121024-teorico-mimd-1.ppt>`__
+* Teórico: parte 2 `[PPT] </doc/20121024-teorico-mimd-2.ppt>`__
+* Teórico: parte 3 `[PPT] </doc/20121024-teorico-mimd-3.ppt>`__
+* Teórico: parte 4 `[PPT] </doc/20121024-teorico-mimd-4.ppt>`__
+* Práctico `[PPT] </doc/20121024-practico-mimd.ppt>`__
