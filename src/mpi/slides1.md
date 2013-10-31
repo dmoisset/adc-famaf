@@ -364,7 +364,7 @@ Se aproxima una integral como suma de áreas de trapecios
 
 ![trapezoidal rule](trapezoidal-rule.png)
 
-Dividimos el intervalo `[a,b]` en *n* segmentos, cada uno de *h=b-a/n* de ancho.
+Dividimos el intervalo `[a,b]` en *n* segmentos, cada uno de *h=(b-a)/n* de ancho.
 Esto define puntos *x[0]=a*, *x[1]*, *x[2]*, ..., *x[n]=b*. Tenemos que 
 *x[k+1] = x[k]+h*.
 
@@ -419,11 +419,10 @@ Supongamos para simplificar que `n` es divisible por `comm_sz`
             Recibir local_integral desde proc;
             total_integral += local_integral;
         }
+        print total_integral;
     }
-    if (my rank == 0)
-        print result;
 
-Cuidado con la entrada/salida!
+Cuidado con la entrada/salida (donde va el print)!
 
 ----
 # Ejemplo: regla del trapecio
@@ -435,9 +434,9 @@ Cuidado con la entrada/salida!
                    int     comm_sz
                    double *a_p
                    double *b_p
-                   int    *n_p
-                   int     dest)
+                   int    *n_p)
     {
+        int dest;
         if (my_rank == 0) {
             printf("Enter a, b, and n\n");
             scanf("%lf %lf %d", a_p, b_p, n_p);
