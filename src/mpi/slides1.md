@@ -142,7 +142,7 @@ Hay que configurar `mpd` en cada nodo
 
     !bash
     $ sudo apt-get install mpich2 libmpich2-dev
-    $ cat MPD_SECRETWORD=famaf2012 > ~/.mpd.conf
+    $ echo MPD_SECRETWORD=famaf2012 > ~/.mpd.conf
     $ chmod 600 ~/.mpd.conf
 
 ## Un pseudo-cluster de un nodo
